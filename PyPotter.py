@@ -54,8 +54,8 @@ if (len(sys.argv) >= 8):
 hass = HassApi(hassUrl, hassRestToken)
 
 # Constants
-DesiredFps = 42
-DefaultFps = 42 # Original constants trained for 42 FPS
+DesiredFps = 80
+DefaultFps = 80 # Original constants trained for 42 FPS
 MicroSecondsBetweenFrames = (1 / DesiredFps) * 1000000
 
 TrainingResolution = 50
